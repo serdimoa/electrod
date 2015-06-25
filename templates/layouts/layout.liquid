@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <!-- Title block allowing child pages to override -->
+        <title>{% block title %}Empty{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        <!-- Styles -->
+        <!-- Style block allowing child pages to inject their own styles -->
+        <link type="text/css" rel="stylesheet" href="assets/css/normalize.min.css"/>
+        <script src="assets/js/modernizr.custom.min.js"></script> 
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/kube.min.css"/>
+        <link type="text/css" rel="stylesheet" href="assets/css/custom.min.css"/>
+        
+
+    </head>
+    <body>
+       <div class="units-row topbar units-padding">
+      
+       <div class="unit-25 logo"><img src="assets/img/logo.png" alt=""><p class="imgsub">ОФИЦИАЛЬНЫЙ ДИСТРИБЬЮТОР ESAB</p></div>
+       <div class="unit-25 time"><i class="fa fa-clock-o"></i>Понедельник - Суббота: 8:00-18:00 </div>
+       <div class="unit-25 tel"></div>
+       <div class="unit-25 side"></div>
+      
+        </div>
+            <!-- Include -->
+            <!-- Content block, child page inject content -->
+            <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+    <span>Меню</span>
+</div>
+<nav id="navbar-1" data-tools="navigation-fixed" class="navbar">
+    <ul>
+         <li class="menu"><a href="#">Главная</a></li>
+	     <li class="menu"><a href="#">Каталог</a></li>
+	     <li class="menu"><a href="#">Документация</a></li>
+	     <li class="menu"><a href="#">О компании</a></li>
+	     <li class="menu"><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+       <div class="units-row">
+       {% block content %}{% endblock %}
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+        <script src="assets/js/kube.min.js"></script>
+    </body>
+</html>

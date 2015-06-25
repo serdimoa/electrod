@@ -1,0 +1,208 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800&subset=cyrillic,latin);
+
+
+
+nav li a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+.time{
+    color: #ffffff;
+    font: 400 13px / 15.6px 'Open Sans';
+}
+.imgsub{
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: none;
+    font: 400 9.5px / 15.6px "Open Sans" ,sans-serif;
+}
+nav li a:hover,
+nav li a:focus {
+	outline: none;
+    text-decoration:none !important;
+}
+.topbar{
+    padding-top: 20px;
+}
+.menu a {
+	padding: 0 0 10px;
+}
+
+.menu a::after {
+	position: absolute;
+	top: 90%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.menu a:hover::after,
+.menu a:focus::after {
+	height: 5px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+
+
+
+
+.bgblue {
+    background-color: rgba(27, 39, 61, 0.95);
+    width: 100%;
+    
+}
+
+.graf {
+    padding-top: 40px;
+    color: #ffffff;
+    font: 400 14.6px / 15.6px 'MyriadProCondRegular' sans-serif;
+}
+.graf i {
+    color: #ffb500;
+    
+}
+
+.tops {
+    max-height: 129px;
+}
+
+.cont {
+    padding-top: 25px;
+    color: #ffffff;
+    font: 400 16px / 21.6px 'Open Sans' sans-serif;
+}
+.mini{
+    color: #767d8c;
+    margin: 0;
+    font-size: 15px;
+
+}
+.mini1{
+    color: #767d8c;
+    margin: 0;
+    font-size: 10.5px;
+
+}
+
+.alltell {
+    color: #ffffff;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.cont {
+    margin-top: 0px;
+}
+
+.alladr {
+    color: #ffffff;
+    margin: 0;
+}
+.bgyelow{
+    background-color: #ffb500;
+}
+.nopm {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-default .nav li a{
+    color: #101828; 
+    font-family: "Open Sans";
+}
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+    color: #ffffff;
+}
+.navbar-default.navbar-shrink{
+       padding:  0; 
+   background-color: #ffb500; 
+}
+.see {
+    padding-bottom: 152px;
+}
+.hcolorw{
+    color: #fff;
+}
+.colorw{
+    color: #fff;
+    font: 400 15px / 27px "Open Sans" sans-serif;
+}
+#owl-demo .item{
+  
+  text-align: center;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: rgba(255, 255, 255, 0.9);
+}
+.textblockfooter{
+    text-align: left;
+    font: 400 12px / 23.4px "Open Sans" sans-serif;
+}
+.footerlist li{
+    list-style-type: none;
+    color:#333333;
+}
+.footerlist {
+    list-style-image: url(../images/Icons.png);  
+    font:  400 17px / 25.8px "Open Sans" sans-serif;
+    
+}
+.footerlist li a{
+    color:#333333;
+}
+.footerlist li a:hover{
+    color: #ffb700;
+}
+.footerlist li:hover  {
+    list-style-image: url(images/Icons2.png);  
+    
+}
+.adr{
+    font:  400 17px / 33.8px "Open Sans" sans-serif;
+    cursor: default;
+}
+a.active{
+    color: #fff !important;
+}
+a.active::after {
+	position: absolute;
+	top: 90%;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	content: '';
+	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	
+    height: 5px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+}
