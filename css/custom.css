@@ -78,7 +78,7 @@ nav li a:focus {
 .graf {
     padding-top: 40px;
     color: #ffffff;
-    font: 400 14.6px / 15.6px 'MyriadProCondRegular' sans-serif;
+    font: 400 14px / 15.6px 'MyriadProCondRegular' sans-serif;
 }
 .graf i {
     color: #ffb500;
@@ -103,7 +103,7 @@ nav li a:focus {
 .mini1{
     color: #767d8c;
     margin: 0;
-    font-size: 10.5px;
+    font-size: 10px;
 
 }
 
@@ -205,4 +205,39 @@ a.active::after {
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
 }
+.nobg{
+    background: none;
+}
+.breadcrumb li{
+    text-transform: uppercase;
+}
+.tovarhead{
+    color: #000000;    
+}
+.btn-xl{
+    border-radius: 0px;
+}
+.specific{
+    color: #000000;
+    font: 700 14px "Open Sans";
+    padding: 10px;
+    text-transform: none;
+    float: left;
+    
+}
+.textabout{
+    text-align: left;
+    font: 600 18px "Open Sans" sans-serif;
+    color: #000000;
+}
+.padfooter{
+    background: #f3b400;
+    height: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+.grp a{ 
+    border-right: 3px #fff solid;
+    
+    content: "";
 }
