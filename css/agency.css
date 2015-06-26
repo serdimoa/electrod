@@ -277,16 +277,16 @@ fieldset[disabled] .btn-xl.active {
 header .intro-text {
     
         padding-top: 51px;
-        padding-bottom: 227px;
-        width: 516px;
-        height: 252px;
+        padding-bottom: 57px;
+        width: 100%;
+        height: 125px;
         background: rgba(0,0,0,.5);
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     color: #1c242a;
-    width: 369px;
+    width: 100%;
     padding: 3px;
     background: #ffffff;
     font: 700 19px / 38.4px "Open Sans" sans-serif;
@@ -295,6 +295,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
+    text-align: center;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
@@ -322,6 +323,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
+        text-align: center;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
