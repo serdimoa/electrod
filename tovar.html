@@ -81,10 +81,10 @@
                 <ul class="nav navbar-nav ">
                     
                     <li class="menu">
-                        <a class="active" href="#">Главная</a>
+                        <a  href="#">Главная</a>
                     </li>
                     <li class="menu">
-                        <a href="#">Каталог</a>
+                        <a class="active" href="kategory.html">Каталог</a>
                     </li>
                     <li class="menu">
                         <a  href="#">Документация</a>
@@ -121,8 +121,8 @@
 
                    <h2 class="media-heading text-left tovarhead">Caddy tig 2200i DC</h2>
                    <div class="btn-group pull-left grp" role="group" aria-label="...">
-                   <a href="#" class="btn btn-xl specific">Спецификации</a>
-                   <a href="#" class="btn btn-xl specific">Заказать</a>
+                   <a href="#" class="btn btn-xl specific" >Спецификации</a>
+                   <a href="#portfolioModal" class="btn btn-xl specific" data-toggle="modal">Заказать</a>
                      
                    </div>
                    <br><br><br>
@@ -246,7 +246,66 @@ Permitted load at 40°C (104°F), MMA<br>
             </div>
         </div>
     </footer>
-    
+      <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>CADDY TIG 2200I DC</h2>
+                            <p class="item-intro text-muted"></p>
+                            <p>Для заказа заполните форму. Наш менеджер вскоре свяжется с вами.</p>
+                            <div id="contact">
+            
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Ваше имя *" id="name" required data-validation-required-message="Пожалуйста введите ваше имя">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Ваш Email *" id="email" required data-validation-required-message="Пожалуйста введите ваш Email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Ваш телефон *" id="phone" required data-validation-required-message="Пожалуйста введите ваш телефон">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Ваше сообщение *" id="message" required data-validation-required-message="Не может быть пустым"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Зазать</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+                            </div>
+    </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     
     
     <script src="js/jquery.js"></script>
