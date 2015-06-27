@@ -25,7 +25,7 @@ nav li a {
     padding-top: 7px;
     padding-bottom: 5px;
     background-color: none;
-    font: 400 9.5px / 15.6px "Open Sans" ,sans-serif;
+    font: 400 9.5px / 15.6px 'Open Sans' sans-serif;
 }
 nav li a:hover,
 nav li a:focus {
@@ -132,7 +132,7 @@ nav li a:focus {
 
 .navbar-default .nav li a{
     color: #101828; 
-    font-family: "Open Sans";
+    font-family: 'Open Sans',sans-serif;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
     color: #ffffff;
